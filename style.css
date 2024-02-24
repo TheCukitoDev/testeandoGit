@@ -1,0 +1,22 @@
+:root {
+	--defaultFontFamily: Open-Sans, sans-serif;
+	--defaultFontColor: #0e0e0e;
+	--defaultFontSize: 1rem;
+	--primaryBackgroundColor: #fdfbf6;
+	--secondaryBackgroundColor: #0e0e0e;
+}
+
+body,
+fieldset,
+textarea,
+legend {
+	background-color: #fdfbf6; /* */
+	font-family: var(--defaultFontFamily);
+	color: var(--defaultFontColor);
+	font-size: var(--defaultFontSize);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
